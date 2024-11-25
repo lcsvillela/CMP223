@@ -9,8 +9,11 @@ $ sudo apt install python3-virtualenv
 para criar o ambiente virtual e importá-lo:
 
 $ virtualenv --python=3 venv
+
 $ source venv/bin/bash
+
 $ pip install -i requirements.txt
+
 $ jupyter notebook
 
 
